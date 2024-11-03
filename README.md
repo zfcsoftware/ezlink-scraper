@@ -8,6 +8,7 @@ Send more than 30 requests in multi thread total to any subdomain of ezlinksgolf
 - Checked with the help of check-host.net to see if there is a country without Cloudflare WAF. Only USA - Atlanta was successful, but only check-host may have been allowed. Scraping failed with different user-agent values with proxy in the same location.
 - Since there was no shortcut solution, a Cloudflare session was created and a scraping method was created. Since a proxy is not required to pass a test consisting of 5 threads and 100 requests, 10 sessions were created from the same ip address and each session was used in turn. The reason for creating 10 sessions is that a single session gives 429 error after a few requests.
 - Since no proxy was used, sessions were created sequentially. For a project in production environment, I would set up a session pool consisting of static ipv4 addresses. I would constantly increase the number of sessions in the pool according to the request size. When the number of requests increases, I would immediately increase the number of sessions.
+- The github workflow was not added because github ip addresses are blocked on the site. It should work error-free on your local computer. A proxy needs to be added for it to work error-free in every environment. There is proxy support, but proxy is not added so that you can test it on your local computer.
 
 ## Test Content
 - Session Management Tests > Single Request Test | It creates a single session and sends requests to 2 different subdomains.
