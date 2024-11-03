@@ -42,4 +42,4 @@ docker run ezlink-scraper
 
 ## Test Video
 
-[![Ezlink Scraper Test](https://img.youtube.com/vi/VpHdJOdgLJA/0.jpg)](https://www.youtube.com/watch?v=VpHdJOdgLJA)# ezlink-scraper
+[![Ezlink Scraper Test](https://img.youtube.com/vi/VpHdJOdgLJA/0.jpg)](https://www.youtube.com/watch?v=VpHdJOdgLJA)
