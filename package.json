@@ -1,0 +1,22 @@
+{
+  "name": "ezlink-scraper",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "npm run build && node --experimental-vm-modules node_modules/jest/bin/jest.js --rootDir=dist --forceExit",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jest": "^29.5.14",
+    "ts-jest": "^29.2.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "node-tls-client": "^1.1.4",
+    "puppeteer-real-browser": "^1.3.17"
+  }
+}

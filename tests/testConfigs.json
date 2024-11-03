@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://raccooncreek.ezlinksgolf.com/api/search/search",
+        "body": {
+            "p01": [
+                5041,
+                22997
+            ],
+            "p02": "12/01/2024",
+            "p03": "5:00 AM",
+            "p04": "7:00 PM",
+            "p05": 0,
+            "p06": 4,
+            "p07": false
+        }
+    },
+    {
+        "url": "https://cityofaurora.ezlinksgolf.com/api/search/search",
+        "body": {
+            "p01": [
+                24453,
+                24452,
+                24456,
+                24454,
+                6386,
+                6474,
+                19921,
+                19197,
+                6516
+            ],
+            "p02": "11/10/2024",
+            "p03": "5:00 AM",
+            "p04": "7:00 PM",
+            "p05": 0,
+            "p06": 2,
+            "p07": false
+        }
+    }
+]
